@@ -1,0 +1,188 @@
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+	margin: 0;
+	color: $color_1;
+	background-color: $background-color_1;
+	font-family: $font-family_1;
+}
+h1 {
+	font-family: $font-family_2;
+	font-size: 50px;
+}
+h2 {
+	font-family: $font-family_2;
+}
+h3 {
+	font-family: $font-family_2;
+	font-size: 25px;
+	margin: 0px;
+}
+h4 {
+	font-family: $font-family_2;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+h5 {
+	font-family: $font-family_2;
+	margin: 0px;
+	font-size: 18px;
+}
+h6 {
+	font-family: $font-family_2;
+	font-size: 20px;
+	margin: 0px;
+}
+#cabecera {
+	height: 500px;
+	width: 100%;
+	background-image: url(../media/cabecera-index.jpg);
+	background-position: right -475px;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-family: $font-family_2;
+}
+#menu {
+	margin-top: 0px;
+	margin-bottom: 32px;
+	padding: 0px;
+}
+.itemMenu {
+	display: inline-block;
+}
+.anclaMenu {
+	text-decoration: none;
+	font-family: $font-family_1;
+	color: $color_1;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid;
+	padding-inline: 70px;
+	margin-inline: 5px;
+	&:hover {
+		color: $color_2;
+		border: 2px solid whitesmoke;
+		background-color: $background-color_2;
+	}
+}
+.franja {
+	display: flex;
+	height: 400px;
+}
+.franjaImg {
+	width: 50%;
+	background-size: cover;
+	background-position: center;
+}
+.franjaTexto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 50px;
+	width: 50%;
+}
+#coordinan {
+	font-size: 17px;
+}
+.anclaFranjas {
+	text-decoration: none;
+	font-family: $font-family_1;
+	color: $color_3;
+	font-size: 20px;
+	border: 2px solid;
+	padding-inline: 20px;
+	&:hover {
+		color: $color_2;
+		border: 2px solid white;
+		background-color: $background-color_3;
+	}
+}
+footer {
+	background-color: $background-color_2;
+	color: $color_4;
+	text-align: end;
+	padding: 20px;
+}
+@media (max-width: 980px) {
+	.anclaMenu {
+		padding-inline: 10px;
+	}
+}
+@media (max-width: 630px) {
+	.franja {
+		flex-direction: column;
+		height: 80%;
+	}
+	.franjaImg {
+		width: auto;
+		height: 50vh;
+	}
+	.franjaTexto {
+		width: auto;
+	}
+	#TalleresDeActuacion {
+		flex-direction: column-reverse;
+	}
+	#Contacto {
+		flex-direction: column-reverse;
+	}
+}
+@media (max-width: 426px) {
+	#cabecera {
+		height: 75vh;
+		background-position: 750px -475px;
+	}
+	.itemMenu {
+		margin-top: 18px;
+		margin-inline: 18px;
+	}
+	.franjaTexto {
+		padding: 20px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	h5 {
+		font-size: 17px;
+	}
+	h6 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 14px;
+	}
+	#copete {
+		font-size: 16px;
+	}
+	.anclaFranjas {
+		font-size: 16px;
+		padding-inline: 20px;
+		&:active {
+			color: $color_2;
+			border: 2px solid white;
+			background-color: $background-color_3;
+		}
+	}
+	footer {
+		padding: 10px 20px 10px 20px;
+	}
+}
+@media (max-width: 329px) {
+	.itemMenu {
+		margin-top: 10px;
+		margin-inline: 10px;
+	}
+}
