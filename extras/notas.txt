@@ -1,0 +1,17 @@
+Landing
+
+Zona cartelera: Funciones actuales, proyectos actuales.
+
+Zona quienes somos, descripcion del grupo, trayectiria, integrantes, obras.
+
+Zona obras: obras realizadas, historico de funciones.
+
+Zona contacto
+
+--
+
+Ideas: 
+
+Zona de carpetas abiertas: ¿Por que no dejar una zona abierta a que cualquier usuario pueda revisar las carpetas y documentacion (publica) de las obras? como muestra de nuestro trabajo y como aporte a actuales y futuros hacedores les sirva como referencia.
+
+Zona de archivo: Bajo la conviccion de que el teatro sucede sobre los escenarios y no sobre los papeles, promovemos el archivo abierto de obras de teatro para su documentacion, revision y estudio.
